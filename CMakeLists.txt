@@ -1,13 +1,16 @@
 cmake_minimum_required(VERSION 3.27)
-project(Rover_Run)
+project(untitled1 C)
 
-set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_C_STANDARD 11)
 
-add_executable(Rover_Run
-        .idea/.gitignore
-        .idea/modules.xml
-        .idea/Rover_Run.iml
-        .idea/vcs.xml
-        .idea/workspace.xml
-        main.c
-        README.md)
+add_executable(untitled1 main.c
+        loc.c
+        loc.h
+        moves.c
+        moves.h
+        map.c
+        map.h
+        queue.c
+        queue.h
+        stack.c
+        stack.h)
